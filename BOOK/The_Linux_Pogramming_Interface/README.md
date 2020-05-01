@@ -39,7 +39,7 @@
 - __Directory Hierarchy:__  The kernel maintains a single hierarchical directory structure to organize all files in the system. (This contrasts with operating systems such as Microsoft Windows, where each disk device has its own directory hierarchy.) At the base of this hierarchy is the root directory, named `/ (slash)`. All files and directories are children or further removed descendants of the root directory.
 
 <figure align="center">
-  <img alt="Stash Batch Backup Flow" src="/images/dh.png">
+  <img alt="Stash Batch Backup Flow" src="/BOOK/The_Linux_Pogramming_Interface/images/dh.png">
   <figcaption align="center">Fig: Subset of the Linux single directory hierarchy</figcaption>
 </figure>
 
