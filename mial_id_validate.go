@@ -12,7 +12,7 @@ func main() {
 	var a int
 	fmt.Println(".................", a)
 	// Valid example
-	e := "test@golangcode.com"
+	e := "ginkgo_test_book@golangcode.com"
 	if isEmailValid(e) {
 		fmt.Println(e + " is a valid email")
 	}

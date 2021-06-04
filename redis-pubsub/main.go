@@ -9,7 +9,7 @@ import (
 
 var ctx context.Context
 
-func main()  {
+func main() {
 	rdb := redis.NewClient(&redis.Options{
 		Addr:     "localhost:6379",
 		Password: "", // no password set

@@ -10,9 +10,9 @@ import (
 )
 
 func main() {
-	from := mail.NewEmail("Example User", "test@example.com")
+	from := mail.NewEmail("Example User", "ginkgo_test_book@example.com")
 	subject := "Sending with Twilio SendGrid is Fun"
-	to := mail.NewEmail("Example User", "test@example.com")
+	to := mail.NewEmail("Example User", "ginkgo_test_book@example.com")
 	plainTextContent := "and easy to do anywhere, even with Go"
 	htmlContent := "<strong>and easy to do anywhere, even with Go</strong>"
 	message := mail.NewSingleEmail(from, subject, to, plainTextContent, htmlContent)
